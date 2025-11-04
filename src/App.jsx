@@ -18,8 +18,6 @@ function App() {
         category={cardData.category}
         date={cardData.date}
         title={cardData.title}
-        description: 'Мета практичної роботи полягає в тому, щоб налаштувати середовище розробки VS Code, а також реалізувати картку блогу для вдосконалення фундаментальних навичок з HTML та CSS.',
-        description={cardData.description}
         authorAvatar={cardData.authorAvatar}
         author={cardData.author}
       />
