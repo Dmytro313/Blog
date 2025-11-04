@@ -1,5 +1,5 @@
-import BlogCard from "./components/BlogCard.jsx";
-import './Card.css';
+import BlogCard from "/components/BlogCard.jsx";
+import '/Card.css';
 
 function App() {
   const cardData = {
