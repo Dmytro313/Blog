@@ -3,7 +3,7 @@ import './Card.css';
 
 function App() {
   const cardData = {
-    image: '/assets/images/Blogimage.png',
+    image: 'Blog/assets/images/Blogimage.png',
     category: 'HTML & CSS',
     date: '1 Вересня 2025',
     title: 'Практична №3',
