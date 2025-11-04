@@ -3,12 +3,12 @@ import './Card.css';
 
 function App() {
   const cardData = {
-    image: '/assets/images/Blogimage.png',
+    image: './assets/images/Blogimage.png',
     category: 'HTML & CSS',
     date: '1 Вересня 2025',
     title: 'Практична №3',
-    authorAvatar: '/assets/images/avatar_male.png',
-    author: "<Name>",
+    authorAvatar: './assets/images/avatar_male.png',
+    author: "Dmytro Lykhota",
   };
 
   return (
@@ -18,7 +18,6 @@ function App() {
         category={cardData.category}
         date={cardData.date}
         title={cardData.title}
-        description={cardData.description}
         authorAvatar={cardData.authorAvatar}
         author={cardData.author}
       />
