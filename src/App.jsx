@@ -3,11 +3,11 @@ import './Card.css';
 
 function App() {
   const cardData = {
-    image: 'Blog/public/assets/images/Blogimage.png',
+    image: './assets/images/Blogimage.png',
     category: 'HTML & CSS',
     date: '1 Вересня 2025',
     title: 'Практична №3',
-    authorAvatar: '/assets/images/avatar_male.png',
+    authorAvatar: './assets/images/avatar_male.png',
     author: "Dmytro Lykhota",
   };
 
